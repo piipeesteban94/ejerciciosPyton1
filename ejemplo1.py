@@ -24,3 +24,13 @@ horas = float(input("introduce la cantidad de horas trabajadas: "))
 valor = float(input("introduce el valor por hora de trabajo: "))
 result = valor * horas
 print("el valor total ganado por las " , horas ," trabajadas es: " ,result)
+
+# escribir un programa que lea un entero positivo n, introducido por el usuario despues muestre en pantalla la suma de todos los enteros desde 1 hasta n,
+# la suma de los n primeros enteros positivos puede ser calculada de la siguiente forma: suma = n(n+1)/2
+
+n = int(input("ingrese un numero entero positivo: "))
+suma = n + 1
+multi = n * suma
+result = multi / 2
+
+print("el resultado de tu numero entero en la ecuacion es: ", result)
